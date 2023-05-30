@@ -18,6 +18,9 @@ for(const key in data ){
 }
 setMeetings(tempMeetings)
   })
+
+
+  
   return (
     <div className="page">
       <h1>Upcomming Meeting</h1>
