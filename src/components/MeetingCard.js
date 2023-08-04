@@ -12,7 +12,6 @@ const MeetingCard = (props) => {
 </svg>
       </div>
           <p>{props.date}</p>
-     
       </div>
     </div>
   );

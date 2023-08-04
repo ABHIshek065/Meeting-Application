@@ -17,7 +17,7 @@ const AddMeeting = () => {
       date: dateInput.current.value,
       link: linkInput.current.value,
     };
-    fetch("https://meeting-9d1af-default-rtdb.firebaseio.com/meet.json", {
+    fetch("https://meeting2-354aa-default-rtdb.firebaseio.com/meet.json", {
       method: "post",
       body: JSON.stringify(tempMeetings),
     }).then(() => {
